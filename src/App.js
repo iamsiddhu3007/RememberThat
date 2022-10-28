@@ -1,14 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./App.css";
-// import bullet from "./Img/bullet.svg";
 import close from "./Img/close.svg";
-// import dots from "./Img/dots.svg";
-import holdingPhone from "./Img/interface.jpg";
+import interfaces from "./Img/interface.jpg";
 import illustration from "./Img/illustration.svg";
-import person1 from "./Img/doctor.jpg";
+import doctor from "./Img/doctor.jpg";
 import menu from "./Img/menu.svg";
-import person2 from "./Img/patient.jpg";
-import person3 from "./Img/pills.jpg";
+import patient from "./Img/patient.jpg";
+import pills from "./Img/pills.jpg";
 
 function App() {
   return (
@@ -54,7 +52,7 @@ function App() {
           </nav>
         </div>
       </div>
-      
+
       <section class="hero">
         <div class="container">
           <div class="left-col">
@@ -67,16 +65,13 @@ function App() {
               </a>
               <a href="#" class="primery-cta">
                 Signup now(Users)
-              </a>                
+              </a>
             </div>
           </div>
 
           <img src={illustration} alt="Illustration" class="hero-img" />
         </div>
       </section>
-      {/* <!--SECTION HERO BLOG END--> */}
-
-      {/* <!--SECTION FEATURES BLOG START--> */}
       <section class="features-section">
         <div class="container">
           <ul>
@@ -89,48 +84,36 @@ function App() {
             <li>Signup now</li>
           </ul>
         </div>
-        <img src={holdingPhone} alt="phone" />
+        <img src={interfaces} alt="phone" />
       </section>
-      {/* <!--SECTION FEATURES BLOG END--> */}
-
-      {/* <!--SECTION TEST  BLOG START--> */}
       <section class="test-monials-section">
         <div class="container">
           <ul>
-            {/* <!--PERSON 1--> */}
             <li>
-              <img src={person1} alt="Person 1" />
+              <img src={doctor} alt="doctor.png" />
               <blockquote>
-                We provide the best in class doctors verified by us. 
-                Every doctor who signed up can be available for a meet.
+                We provide the best in class doctors verified by us. Every
+                doctor who signed up can be available for a meet.
               </blockquote>
             </li>
-
-            {/* <!--PERSON 2--> */}
             <li>
-              <img src={person2} alt="Person 2" />
+              <img src={patient} alt="patient.png" />
               <blockquote>
-               Interactive Design and accessible to all just from a few 
-               clicks on the browser
+                Interactive Design and accessible to all just from a few clicks
+                on the browser
               </blockquote>
             </li>
-
-            {/* <!--PERSON 3--> */}
             <li>
-              <img src={person3} alt="Person 3" />
+              <img src={pills} alt="pills.png" />
               <blockquote>
-                The machine learning model deployed is very accurate
-                 and has been tested for various diseases and can help the
-                  doctor in making the treatment easier.
+                The machine learning model deployed is very accurate and has
+                been tested for various diseases and can help the doctor in
+                making the treatment easier.
               </blockquote>
-
             </li>
           </ul>
         </div>
       </section>
-      {/* <!--SECTION TEST  BLOG END--> */}
-
-      {/* <!--SECTION CONTACT  BLOG START--> */}
       <section class="contact-section">
         <div class="container">
           <div class="contact-left">
